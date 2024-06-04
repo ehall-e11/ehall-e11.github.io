@@ -1,6 +1,6 @@
 alert(2)
 console.log(parent.document.getElementsByTagName("a")[0])
-parent.document.getElementsByTagName("body")[0].innerHTML = parent.document
+parent.document
   .getElementsByTagName("body")[0]
   .insertAdjacentHTML(
     "afterend",
